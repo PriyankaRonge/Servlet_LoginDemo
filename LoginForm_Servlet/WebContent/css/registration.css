@@ -1,0 +1,43 @@
+body{
+	background: #2d4259;
+}
+
+.login_form {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+#regheader{
+	background:#2d4259;
+	color:#ffff;
+	padding:10px;
+	width :100%;
+
+}
+.form{
+	 background: #FFFFFF;
+     padding: 45px;
+     width :100%;
+     margin: 10px;
+}
+.form input{
+   
+ box-sizing:border-box;
+border:0; 
+ background: #f2f2f2;
+margin-bottom: 10px;
+ width: 65%;
+ font-size: 18px;
+float: right;
+}
+
+.form button{
+	width:100%;
+	background: #2d4259;
+	padding: 10px;
+	border: 0;
+     box-sizing:border-box;	
+     color:#ffff;
+font-size: 	
+}

@@ -1,0 +1,40 @@
+
+html, body {
+
+  height: 100%;
+ 
+}
+
+
+.cont {
+  height: 100%;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");
+  background-size: cover;
+
+}
+
+.demo{
+	  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15rem;
+  margin-top: -26.5rem;
+  width: 30rem;
+  height: 53rem;
+  overflow: hidden;
+}
+
+.login{
+	position: relative;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0,0,0,0.6) 100%);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transform: scale(1);
+  
+  &.inactive {
+    opacity: 0;
+    transform: scale(1.1);
+	
+}
+
+
